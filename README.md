@@ -27,7 +27,8 @@ Telco-churn-prediction/
 │
 ├── Telco-Churn.csv      # IBM Telco Customer Churn dataset          
 ├── Telco-nn.py          #the neural network model that includes all the EDA
-├── Porject report       #details of the entire project building process and outputs.
+├── Project report       #details of the entire project building process and outputs.
+├── telco_optimisation_comparison        #comares optimisation of GD methods
 └── README.md
 ```
 
@@ -115,30 +116,7 @@ This trains all four optimizers and saves the convergence plot to `outputs/telco
 
 ---
 
-## What's Next (Endterm)
 
-This is the midterm checkpoint. Planned extensions for the endterm submission:
-
-- Add **L2 regularisation and Dropout** to the NN and measure the effect on the val/test gap
-- Add **Batch Normalisation** and re-run the optimizer comparison
-- Introduce a **learning rate schedule** (step decay or cosine annealing)
-- Re-implement the same architecture in **PyTorch** as a correctness check against the NumPy version, then explore deeper architectures
-- Run a proper **hyperparameter search** to make the NN vs XGBoost comparison fully fair
-- Explore **CNNs or sequence models** depending on direction chosen for the endterm
-
----
-
-## Context
-
-This project is part of **Summer of Science (SoS)**, an 8-week self-study mentorship programme. The Neural Networks track follows this progression:
-
-| Week | Topic |
-|---|---|
-| 1–2 | Mathematical foundations, perceptron, forward/backprop |
-| 3–4 | Optimisation, regularisation, BatchNorm, first PyTorch implementations ← *midterm here* |
-| 5–6 | Convolutional Neural Networks |
-| 7 | Sequence models, Transformers |
-| 8 | Revision, paper discussions, endterm |
 
 Main references: [IIT Madras Deep Learning lectures](https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM), [Andrew Ng's Deep Learning Specialization](https://youtu.be/CS4cs9xVecg), [Andrej Karpathy's micrograd series](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ), and *Deep Learning* by Goodfellow, Bengio & Courville.
 
